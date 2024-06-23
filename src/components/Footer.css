@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    height: 1000px;
+    width: 100vw;
+    background-color: rgb(243, 238, 238);
+    position: relative;
+    top: -60px;
+    z-index: -5;
+}
+
+.footer .container {
+    height: 120px;
+    position: relative;
+    top: 60px;
+    left: 0;
+    padding: 30px 30px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container .anchor {
+    width: 70%;
+    text-align: left;
+    font-weight: 400;
+}
+
+.footer .container .anchor span {
+    color: rgb(7, 73, 148);
+    font-weight: bold;
+}
+
+.footer .container button {
+    height: 45px;
+    padding: 10px 30px;
+    background-color: rgb(61, 61, 196);
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+
+.footer .container button i {
+    margin-left: 20px;
+}
+
+.container .heading {
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+
+.container .heading h3 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}

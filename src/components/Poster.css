@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.poster {
+    width: 99%;
+    height: 400px;
+    background-image: url("https://adesoafrica.org/wp-content/uploads/2022/09/adeso48x1365.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+.container {
+    justify-content: space-between;
+}
+
+.poster img {
+    width: 100%;
+    height: 400px;
+}
+
+.poster .side-content {
+    width: 40%;
+    text-align: left;
+    position: relative;
+    height: 400px;
+}
+
+.poster .side-content h1 {
+    padding: 100px 0px 0px 0px;
+    font-size: 2.5rem;
+    color: white;
+    font-weight: bold;
+}
+
+.poster .container .btn-learn {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    position: relative;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+}
+
+.poster .container .btn-learn:hover:after {
+    width: 100%;
+    left: 0%;
+}
+
+.poster .container .btn-learn:after {
+    content: "";
+    bottom: -2px;
+    left: 0%;
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: rgb(114, 207, 6);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 2200ms;
+    transition-property: width, left;
+}
+
+.poster .container .post-ad {
+    position: absolute;
+    right: 0px;
+    bottom: -130px;
+}
+
+.poster .container .post-ad .image {
+    height: 186px;
+    width: 360px;
+    background-image: url("../assets/marketing.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.poster .container .post-ad .btn-read {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 360px;
+    padding: 16px 30px;
+    text-align: left;
+    border: none;
+    justify-content: space-between;
+    background-color: rgb(20, 95, 180);
+}
+
+.poster .container .post-ad .btn-read:hover {
+    background-color: rgb(24, 117, 223);
+}
+
+.container .content {
+    width: 58%;
+    text-align: left;
+    padding: 10px;
+}
+
+.container .content h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.container .content h3 span {
+    color: rgb(24, 117, 223);
+}

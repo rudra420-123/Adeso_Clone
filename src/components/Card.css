@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    height: 390px;
+    width: 30%;
+    background-color: aqua;
+    border-radius: 0;
+    background-image: url("../assets/card1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.card .img {
+    height: 390px;
+    width: 100%;
+}
+
+.post-ad .btn-read {
+    font-size: 1.2rem;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    width: 100%;
+    padding: 16px 30px;
+    text-align: left;
+    border: none;
+    justify-content: space-between;
+    background-color: rgb(10, 94, 190);
+}
+
+.post-ad .btn-read:hover {
+    background-color: rgb(7, 73, 148);
+}

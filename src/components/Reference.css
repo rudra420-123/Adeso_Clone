@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+}
+
+.ref {
+    height: 40px;
+    background-color: rgb(20, 95, 180);
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80%;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo ul li {
+    background-color: rgb(20, 95, 180);
+    color: white;
+    font-size: 1.1rem;
+}
+
+.buttons {
+    width: 20%;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 0.85rem;
+}
+
+p {
+    color: white;
+    font-weight: 400;
+    font-size: 0.85rem;
+}

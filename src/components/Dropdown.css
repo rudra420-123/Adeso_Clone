@@ -1,0 +1,7 @@
+.dropdown-menu {
+    background-color: rgb(20, 95, 180);
+}
+
+.dropdown-menu li a {
+    color: white;
+}
