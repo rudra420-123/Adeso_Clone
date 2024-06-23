@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Adeso_Clone/static/css/main.83ddb63e.css",
+    "main.js": "/Adeso_Clone/static/js/main.59e6f763.js",
+    "static/js/453.ed3810f9.chunk.js": "/Adeso_Clone/static/js/453.ed3810f9.chunk.js",
+    "static/media/card1.jpg": "/Adeso_Clone/static/media/card1.dc0a0ceba979c409598f.jpg",
+    "static/media/marketing.jpg": "/Adeso_Clone/static/media/marketing.98e0f5436a9df193b019.jpg",
+    "index.html": "/Adeso_Clone/index.html",
+    "main.83ddb63e.css.map": "/Adeso_Clone/static/css/main.83ddb63e.css.map",
+    "main.59e6f763.js.map": "/Adeso_Clone/static/js/main.59e6f763.js.map",
+    "453.ed3810f9.chunk.js.map": "/Adeso_Clone/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.83ddb63e.css",
+    "static/js/main.59e6f763.js"
+  ]
+}
